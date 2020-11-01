@@ -5,6 +5,8 @@ To-do List intended for people who prefer to manage their time and responsibilit
 
 ![appicon](https://i.imgur.com/PCGB1HS.png)
 
+# Figma:
+  https://www.figma.com/file/AXRLwUcCctrWH5yfJVEouv/Untitled?node-id=0%3A1
 # About App:
 
 1) ListFragment is a host fragment, where all tasks are displayed as list items. Each item contains information about task: name of the task, date, priority of the task and options to edit and to delete a particular task. At the bottom right corner there is a fab button which navigates to the AddFragment, where user can create the task.
