@@ -18,14 +18,14 @@ To-do List intended for people who prefer to manage their time and responsibilit
 3) When “edit” option is selected it navigates to UpdateFragment in order to update the task. The UI of this fragment is similar to AddFragments.
 
 # User interface components:
-custom layouts
-RecyclerView + CardView (List)
-RadioButtons (Priority)
-EditText fields (To do task)
-Buttons (Save/Update/Add)
-TextViews
-ImageViews
-Material design icons (delete/edit)
+-custom layouts
+-RecyclerView + CardView (List)
+-RadioButtons (Priority)
+-EditText fields (To do task)
+-Buttons (Save/Update/Add)
+-TextViews
+-ImageViews
+-Material design icons (delete/edit)
 
 Because I wanted to display data in a list where data can be changed I decided to implement RecyclerView + CardView. The views in the list are represented by view holder objects. Each view holder is in charge of displaying a single item with a view.The view holder objects are managed by adapter.
 
