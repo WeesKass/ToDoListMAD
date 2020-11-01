@@ -5,6 +5,8 @@ To-do List intended for people who prefer to manage their time and responsibilit
 
 ![appicon](https://i.imgur.com/PCGB1HS.png)
 
+# Figma:
+  https://www.figma.com/file/AXRLwUcCctrWH5yfJVEouv/Untitled?node-id=0%3A1
 # About App:
 
 1) ListFragment is a host fragment, where all tasks are displayed as list items. Each item contains information about task: name of the task, date, priority of the task and options to edit and to delete a particular task. At the bottom right corner there is a fab button which navigates to the AddFragment, where user can create the task.
@@ -16,14 +18,14 @@ To-do List intended for people who prefer to manage their time and responsibilit
 3) When “edit” option is selected it navigates to UpdateFragment in order to update the task. The UI of this fragment is similar to AddFragments.
 
 # User interface components:
-custom layouts
-RecyclerView + CardView (List)
-RadioButtons (Priority)
-EditText fields (To do task)
-Buttons (Save/Update/Add)
-TextViews
-ImageViews
-Material design icons (delete/edit)
+- custom layouts
+- RecyclerView + CardView (List)
+- RadioButtons (Priority)
+- EditText fields (To do task)
+- Buttons (Save/Update/Add)
+- TextViews
+- ImageViews
+- Material design icons (delete/edit)
 
 Because I wanted to display data in a list where data can be changed I decided to implement RecyclerView + CardView. The views in the list are represented by view holder objects. Each view holder is in charge of displaying a single item with a view.The view holder objects are managed by adapter.
 
